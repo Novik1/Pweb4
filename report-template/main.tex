@@ -1,0 +1,42 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{labstyle}
+\begin{document}
+\input{title.tex}
+\section{Task}
+Add here the task.
+
+\section{Results}
+
+Add here anything you consider important for the evaluator to know about the project --- what was done, what challenges you've faced, some implementation details.
+
+You can also add code snippets like the one in Listing~\ref{lst:thisIsListing}.
+
+\begin{lstlisting}[language=Bash, caption={Sample listing.}, label=lst:thisIsListing]
+echo "Hello World!"
+\end{lstlisting}
+
+
+You can also include screenshots to your report like the photo in Figure~\ref{fig:thisIsImage}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=0.25\textwidth]{image}
+\caption{Sample image.}
+\label{fig:thisIsImage}
+\end{figure}
+
+Don't forget to add links to bibliography using \texttt{\cite{thisIsBibliographyReference}}.
+
+\section{Conclusion}
+
+After implementing the task, I've learned...
+
+% Bibliography
+\begin{thebibliography}{9}
+  \bibitem{thisIsBibliographyReference}
+    Book / Article name,
+    \textit{\url{https://example.com}}
+
+    Accessed on \today .
+\end{thebibliography}
+\end{document}
