@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.start-button:hover {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.option:hover {
+    color: white;
+    background-color: black;
+}
+
+.button:hover {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+.quiz {
+    background-color: #f8f9fa !important;
+    transition: all .5s;
+}
+
+.quiz:hover {
+    background-color: white;
+    box-shadow: 2px 2px 20px gray;
+}
